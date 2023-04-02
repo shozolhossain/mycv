@@ -45,10 +45,11 @@ body {
 
 header {
     position: fixed;
-    top: 0;
+    top: 2rem;
     left: 0;
     z-index: 1000;
     width: 35rem;
+    height: 100%;
     background: #1a1a1a;
     display: flex;
     align-items: center;
@@ -56,6 +57,7 @@ header {
     flex-flow: column;
     text-align: center;
 }
+
 
 header .user img {
     height: 20rem;
@@ -97,6 +99,8 @@ header .navber ul li a {
 
 header .navber ul li a:hover {
     background: var(--yellow);
+    color: blue;
+    font-weight: bold;
 }
 
 #menu {
@@ -139,8 +143,10 @@ header .navber ul li a:hover {
 
     header {
         left: 120%;
-
-        #menu {
-            display: Black;
-        }
     }
+
+    #menu {
+        display: Black;
+    }
+
+}
