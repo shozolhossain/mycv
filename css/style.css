@@ -237,7 +237,68 @@ header .navber ul li a:hover {
     color: #fff;
 }
 
+.education .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
 
+.education .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .5rem solid #fff;
+    position: relative;
+}
+
+.education .box-container .box span {
+    font-size: 2rem;
+    background: #222;
+    color: #fff;
+    border-radius: 6rem;
+    padding: 1rem 4rem;
+}
+
+.education .box-container .box span:hover {
+    background: var(--yellow);
+    color: blue;
+}
+
+.education .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box h4 {
+    font-size: 1.8rem;
+    color: #fff;
+    padding-top: 1.2rem;
+}
+
+.education .box-container .box p {
+    font-size: 1.4rem;
+    color: #eee;
+    padding: .4rem 0;
+}
+
+.education .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+
+}
 
 
 
@@ -290,5 +351,17 @@ header .navber ul li a:hover {
 @media (max-width:400px) {
     header {
         width: 100vw;
+    }
+
+    .heading {
+        margin: 0 3rem;
+    }
+
+    .about .row .counter .box {
+        width: 100%;
+    }
+
+    .education .box-container .box {
+        width: 100%;
     }
 }
