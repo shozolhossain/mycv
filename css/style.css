@@ -181,7 +181,7 @@ header .navber ul li a:hover {
 }
 
 .home p {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #eee;
     padding: 1rem 0;
 }
@@ -424,9 +424,34 @@ header .navber ul li a:hover {
     font-size: 2rem;
     color: #fff;
     background: var(--yellow);
-
 }
 
+.portfolio .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.portfolio .box-container .box {
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio .box-container .box:hover img {
+    transform: scale(1.2);
+}
 
 
 
@@ -496,6 +521,10 @@ header .navber ul li a:hover {
     }
 
     .experience .box-container3 .box3 {
+        width: 100%;
+    }
+
+    .portfolio .box-container .box {
         width: 100%;
     }
 }
