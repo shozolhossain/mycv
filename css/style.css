@@ -124,7 +124,7 @@ header .navber {
 
 header .navber ul {
     list-style: none;
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
 }
 
 header .navber ul li a {
@@ -134,7 +134,7 @@ header .navber ul li a {
     background: #333;
     color: #fff;
     font-size: 2rem;
-    border-radius: 3rem;
+    border-radius: 2.5rem;
 }
 
 header .navber ul li a:hover {
@@ -157,7 +157,6 @@ header .navber ul li a:hover {
 
 .home {
     display: flex;
-    justify-content: center;
     flex-flow: column;
     padding: 0 15rem;
 }
