@@ -300,6 +300,132 @@ header .navber ul li a:hover {
 
 }
 
+.skill .box-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.skill .box-container2 .box2 {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .5rem solid #fff;
+    position: relative;
+}
+
+.skill .box-container2 .box2 span {
+    font-size: 2rem;
+    background: #222;
+    color: #fff;
+    border-radius: 6rem;
+    padding: 1rem 4rem;
+}
+
+.skill .box-container2 .box2 span:hover {
+    background: var(--yellow);
+    color: blue;
+}
+
+.skill .box-container2 .box2 h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.skill .box-container2 .box2 h4 {
+    font-size: 1.8rem;
+    color: #fff;
+    padding-top: 1.2rem;
+}
+
+.skill .box-container2 .box2 p {
+    font-size: 1.4rem;
+    color: #eee;
+    padding: .4rem 0;
+}
+
+.skill .box-container2 .box2 i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+
+}
+
+
+.experience .box-container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.experience .box-container3 .box3 {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .5rem solid #fff;
+    position: relative;
+}
+
+.experience .box-container3 .box3 span {
+    font-size: 2rem;
+    background: #222;
+    color: #fff;
+    border-radius: 6rem;
+    padding: 1rem 4rem;
+}
+
+.experience .box-container3 .box3 span:hover {
+    background: var(--yellow);
+    color: blue;
+}
+
+.experience .box-container3 .box3 h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.experience .box-container3 .box3 h4 {
+    font-size: 1.8rem;
+    color: #fff;
+    padding-top: 1.2rem;
+}
+
+.experience .box-container3 .box3 p {
+    font-size: 1.4rem;
+    color: #eee;
+    padding: .4rem 0;
+}
+
+.experience .box-container3 .box3 i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+
+}
 
 
 
@@ -362,6 +488,14 @@ header .navber ul li a:hover {
     }
 
     .education .box-container .box {
+        width: 100%;
+    }
+
+    .skill .box-container2 .box2 {
+        width: 100%;
+    }
+
+    .experience .box-container3 .box3 {
         width: 100%;
     }
 }
