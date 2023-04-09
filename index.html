@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>responsive resume cv website using html css and javascript</title>
+    <title> Md Shozol Hossain</title>
     <!--font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!--custom css file link -->
@@ -245,7 +245,7 @@
                 </div>
             </div>
 
-            <form action="">
+            <form onsubmit="sendEmail(); trdrt(); return false;">
                 <input type="text" placeholder="name" class="box">
                 <input type="email" placeholder="email" class="box">
                 <input type="text" placeholder="project" class="box">
@@ -256,12 +256,40 @@
 
     </section>
 
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "rovershojol",
+                Password: "password",
+                To: 'rovershojol@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New Contect Form Enquiry",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+
     <!--contact section ends -->
+
+    <!--scroll top section starts -->
+
+    <a href="#home" class="top">
+        <i class="fa-solid fa-comment-arrow-up"></i>
+    </a>
+
+    <!--scroll top section ends -->
+
 
     <!--jquery cnd link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!--custom js file link -->
     <script src="js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
 
 
 </body>
